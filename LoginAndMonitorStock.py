@@ -6,7 +6,6 @@ import time
 from datetime import datetime
 import twilio
 
-LOGIN_URL = "LOGIN PAGE"
 ACCOUNT = "ACCOUNT"
 TWILIO_USER = "TWILIO USER"
 PASSWORD = "PASSWORD"
