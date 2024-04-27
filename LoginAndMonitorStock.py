@@ -47,7 +47,8 @@ def main():
         if "NOT IN STOCK STRING" in newsite:
             print("not in stock" , datetime.now().strftime('%H:%M:%S'))
         else:
-            send_message(client,"Might be in stock" , datetime.now().strftime('%H:%M:%S'))
+            send_message(client,"Might be in stock" )
+            print(datetime.now().strftime('%H:%M:%S'))
 
 if __name__ == "__main__":
     main()
